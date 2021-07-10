@@ -1,0 +1,42 @@
+body {
+  font-family: Roboto Condensed;
+  background-color: rgb(207, 205, 205);
+}
+
+.searchBox {
+  font-size: larger;
+  width: 350px;
+  padding: 5px 25px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 2px solid grey;
+  color: grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.img {
+  list-style: none;
+  cursor: pointer;
+}
+
+.img-preview {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+li{
+  margin-left: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .searchBox{
+    font-size: medium;
+    width: 200px;
+   
+  }
+}
